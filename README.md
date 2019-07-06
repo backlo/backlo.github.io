@@ -1,2 +1,9 @@
-backlo의 Github Page
-URL : <https://backlo.github.io>
+# backlo의 Github Page
+
+Hello there!
+
+This is backlo's Blog.
+
+Please visit my Github page via url below!
+
+**URL** : <https://backlo.github.io>
