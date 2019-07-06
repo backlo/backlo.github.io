@@ -1,5 +1,5 @@
 ---
-title: Dev List
+title: Categories
 subtitle: List of Develop 
 layout: "page"
 icon: fa-book
