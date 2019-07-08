@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
-{%- include header.html -%}
 
-<!-- Main -->
-<div id="main">
-	<!-- Page -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>{{ page.title }}</h1>
+			<p class="subtext">{{ page.description }}</p>
+		</div>
+	</div>
+</section>
+
+{{ content }}
