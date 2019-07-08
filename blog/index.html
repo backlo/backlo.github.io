@@ -10,11 +10,12 @@ image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
 			<h1 class="editable">The latest news</h1>
 			<p class="subtext editable">Hear the latest progress on Frisco and tips on making life long friends.</p>
 		</div>
+		<div class="blog-more"><a href="#blog-more">보러 가기!<span class="arrow">&#x25BC;</span></a></div>
 	</div>
 </section>
 
 <section>
-	<div class="text-container">
+	<div class="text-container" id="blog-more">
 		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
 		<ul class="blog-posts">
 			{% include list-posts.html posts=paginator.posts %}

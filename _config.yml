@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Frisco Template
+title: Dev's Blog
 url: "https://backlo.github.io"
 baseurl: ""
 google_analytics_key:
@@ -16,7 +16,7 @@ author:
   email: hjun4512@gmail.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Dev's Blog
   links:
     - https://github.com/backlo
 
