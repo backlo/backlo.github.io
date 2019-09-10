@@ -1,6 +1,6 @@
 ---
 title: Home
-description: The latest app to help you find new friends with common interests.
+description: 블로그 페이지.
 image: images/main.jpg
 bottom_image: https://unsplash.it/2000/1322?a=.png
 ---
@@ -8,52 +8,32 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Backlo's Dev Blog!!</h1>
-			<p class="subtext editable">안녕하세요! 개발 블로그 입니다.</p>
-			<div class="cta button alt"><a href="#">Join Now</a></div>
+			<h1 class="editable">개발 블로그</h1>
+			<p class="subtext editable">스프링 개발 블로그 입니다.</p>
 		</div>
 	</div>
 	<div class="learn-more"><a href="#learn-more">보러 가기<span class="arrow">&#x25BC;</span></a></div>
 </section>
 
-<div class="content">
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Introduce MySelf</h2>
-				<p class="editable">안녕하세요! 백앤드 개발자를 꿈꾸는 이인권입니다. <br> 
-				현재 이 블로그에는 제가 공부했던 것을 위주로 정리하여 작성하려고 합니다. <br>
-				많이 놀러와 주시고 궁금한 거 있으면 연락주세요!</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
+<section>
+	<div class="text-container" id="blog-more">
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+		<ul class="blog-posts">
+			{% include list-posts.html posts=paginator.posts %}
+		</ul>
 
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Project</h2>
-				<strong class="editable">Band C Care</strong>
-				<p class="editable">
-					Team : 열꾸 <br>
-					독거노인 및 어린이등 도움이 필요한 사람들을 위한 웨어러블 서비스. https://source.unsplash.com/j5LSbCqB1wA/2000x900?a=.png<br>
-					1.0v: <a target="_blank" href="https://github.com/backlo/BandCCare-Android">[GitHub Page]</a><br>
-					1.1v: <a target="_blank" href="https://github.com/backlo/BANDCv12-Android">[GitHub Page]</a><br>
-					Raspberry Code: 1.1v: <a target="_blank" href="https://github.com/backlo/BandCCare-RaspberryPi">[GitHub Page]</a>
-				</p>
-			</div>
-		</div>
-	</section>
+		{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+				{% if paginator.previous_page %}
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+				{% endif %}
 
-	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-				<h2 class="editable">Find your buddy today</h2>
-				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
-				<div class="cta button alt"><a href="#">Join Now</a></div>
+				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+				{% if paginator.next_page %}
+					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+				{% endif %}
 			</div>
-		</div>
-	</section>
-</div>
+		{% endif %}
+	</div>
+</section>

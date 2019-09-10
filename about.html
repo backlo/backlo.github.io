@@ -7,23 +7,36 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Our Story</h1>
-			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
+			<h1 class="editable">Backlo's Dev Blog!!</h1>
+			<p class="subtext editable">안녕하세요! 개발 블로그 입니다.</p>
 		</div>
 	</div>
 </section>
 
-<section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+<div class="content">
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Introduce MySelf</h2>
+				<p class="editable">안녕하세요! 백앤드 개발자를 꿈꾸는 이인권입니다. <br> 
+				현재 이 블로그에는 제가 공부했던 것을 위주로 정리하여 작성하려고 합니다. <br>
+			</div>
+		</div>
+	</section>
+
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Project</h2>
+				<strong class="editable">Band C Care</strong>
+				<p class="editable">
+					Team : 열꾸 <br>
+					독거노인 및 어린이등 도움이 필요한 사람들을 위한 웨어러블 서비스.<br>
+					1.0v: <a target="_blank" href="https://github.com/backlo/BandCCare-Android">[GitHub Page]</a><br>
+					1.1v: <a target="_blank" href="https://github.com/backlo/BANDCv12-Android">[GitHub Page]</a><br>
+					Raspberry Code: 1.1v: <a target="_blank" href="https://github.com/backlo/BandCCare-RaspberryPi">[GitHub Page]</a>
+				</p>
+			</div>
+		</div>
+	</section>
+</div>
