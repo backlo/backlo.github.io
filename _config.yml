@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Dev's Blog
+title: Backlo Dev's Blog
 url: "https://backlo.github.io"
 baseurl: ""
 google_analytics_key:
@@ -9,14 +9,14 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo:
 description: backlo의 개발 블로그 입니다.
 author:
   name: backlo
   email: hjun4512@gmail.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Dev's Blog
+  name: Backlo Dev's Blog
   links:
     - https://github.com/backlo
 
