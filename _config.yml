@@ -45,8 +45,8 @@ collections:
     _hide_content: true
     _icon: account_circle
 
-paginate: 10
-paginate_path: "/blog/:num/"
+paginate: 5
+paginate_path: "/:num/"
 
 jekyll-archives:
   enabled: ['categories']
@@ -100,21 +100,6 @@ defaults:
         width: 2000
         height: 1322
         resize_style: cover
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - Email
-  - RSS
 
 _comments:
   description: Text shown when sharing on social media
