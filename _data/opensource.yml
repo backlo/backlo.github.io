@@ -1,0 +1,21 @@
+# Opensource Template
+- layout: left
+  name: 개인 블로그
+  link: http://poododang.tistory.com/
+  quote: >
+    기술 정리 목적 블로그
+  description: | # this will include new lines to allow paragraphs
+    * 공부를 하면서 이해가 가지 않았던 개념이나 개인적으로 공부 하고 싶은 기술을 기록하는 블로그
+    * 요약 및 정리를 중점으로 포스팅
+    * 꾸준히 하려고 시간 날때 마다 글을 포스팅
+    * 웹 지식이나 CS 지식 위주로 정리
+- layout: left
+  name: 스터디 저장소
+  link: https://github.com/backlo-study-programing
+  quote: >
+    스터디 미션 저장소
+  description: | # this will include new lines to allow paragraphs
+    * 도움 받고 싶은 개발자들을 위해 백앤드 교육을 하고 있는 강의식 스터디 저장소
+    * 2주마다 오프라인 강의를 하고 있으며 우아한 테크 코스에서 했던 미션들 구현
+    * PR을 날리면 피드백 받는 방식으로 진행
+    * 강의 준비를 통해 자신이 얼마나 아는지 검증하려고 시작

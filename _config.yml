@@ -1,0 +1,102 @@
+# Site
+repository: backlo/resume
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: 이인권
+title: JAVA 백앤드 개발자
+email: hjun4512@gmail.com
+website: http://poododang.tistory.com
+
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username: backlo
+# github_username:  jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me #(Use this to override about section title)
+about_profile_image: images/profile.JPG
+about_content: | # this will include new lines to allow paragraphs
+  신입 Java 백앤드 개발자로 공유를 통해 성장 하고 있습니다.
+  현재 [우아한 테크코스](https://techcourse.woowahan.com)에서 백앤드 교육 과정을 수료했습니다.
+
+  **OOP** 와 **클린코드** 를 통해 읽기 좋은 코드를 구현하려고 노력하고 있습니다.
+  **테스트 코드**를 꼼꼼히 작성하는 것이 선택이 아닌 필수라고 생각하고 **TDD** 원칙을 지켜 코딩을 하고 있습니다.
+  
+  현재는 공부했던 개발 지식을 체계화 시키기 위해 블로그와 스터디를 하고 있습니다.
+
+  개발을 나만을 위해 하는 것이 아닌 **팀/동료들이 같이 일을 하고 싶어하는 개발자** 가 되는 것이 꿈입니다.
+
+# Skills Section
+skills_title: Skills #(Use this to override about projects section title)
+
+# Projects Section
+projects_title: Projects #(Use this to override about projects section title)
+
+# Opensource Section
+opensource_title: Opensource #(Use this to override about projects section title)
+
+# Experience Section
+experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+education_title: Education #(Use this to override about education section title)
+
+# OutSide Section
+outside_title: 외부 활동 #(Use this to override about education section title)
+
+# More Section
+# more_title: title #(Use this to override about more section title)
+# more_content: | # this will include new lines to allow paragraphs
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme #(Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme #(Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

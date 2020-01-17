@@ -1,0 +1,45 @@
+# Project template
+- layout: top-middle
+  name: 농구 소모임 플랫폼 Stardium
+  link: github.com/billionaire-boys/stardium/wiki
+  github: backlo/stardium
+  quote: >
+    2019.11.26 ~ 2019.12.27
+  description: | # this will include new lines to allow paragraphs
+    * 우아한 테크코스 최종 프로젝트
+    * 농구 하고 싶은 사람이 자유롭게 장소, 시간을 정하여 농구를 할 수 있게 하는 팀 매칭 플랫폼
+    * JavaScript를 공부하고 싶어 전체 프론트 담당
+    * Kakao Map api를 연동해 위치 보여주기 기능 구현
+    * Daum Post api를 연동하여 사용자가 편리하게 우편 주소를 적을 수 있게 구현
+    * Java11, Spring Boot, JPA, h2, Javascript, HTML
+- layout: top-middle
+  name: Youtube Clone 프로젝트 WooTube
+  link: https://www.youtube.com/watch?v=aFqw6a7gvyE&list=PLgXGHBqgT2TsWUA5puZimG3DDlJTd370Q&index=9&t=2s
+  github: backlo/miniprojects-2019
+  quote: >
+    2019.08.13 ~ 2019.09.04
+  description: | # this will include new lines to allow paragraphs
+    * 우아한 테크코스 미니 프로젝트
+    * 전체적인 비디오 도메인 설계(CRUD)
+    * 메인, 비디오 등록, 비디오 프론트 담당
+    * Jcodec을 사용해 썸네일 기능 구현
+    * 일정 관리, 회의, 회고, 문서화 등 협업 경험
+    * TDD 기반으로 구현 및 코드 리뷰 수행
+    * OOP, 클린코드 중점으로 읽기 좋은 코드 작성에 집중
+    * Java8, Spring Boot, JPA, h2, MySQL, Gradle, Junit5 + Mock, Javascript, Fetch API, HTML
+- layout: top-middle
+  name: 독거노인을 위한 위급상황 대처 시스템 BandCCare
+  link: https://www.youtube.com/watch?v=CuRnuEsEaaU
+  github: bandccare
+  quote: >
+    2018.01 ~ 2018.10
+  description: | # this will include new lines to allow paragraphs
+    * 대학 졸업 작품 및 공모전 프로젝트
+    * 독거노인이나 어린이 등 보호자가 필요한 사람들을 대상으로 심박수 측정 및 움직임을 통해 위급 상황 판별하여 보호자에게 실시간 영상을 보여주는 시스템
+    * OpenCV로 사람 움직임 분석
+    * FFServer, FFMpeg를 이용해 실시간 스트리밍 구현
+    * 스트리밍 서버는 라즈베리파이에 구현
+    * 라즈베리파이의 전반적인 로직 및 안드로이드 영상 부분 담당
+    * Android, Python, Java8, Raspberry Pi, Arduino, NodeJS, Gradle, MySQL, NDK
+
+

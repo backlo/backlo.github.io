@@ -1,0 +1,7 @@
+<div class="container projects-container">
+    <h3>{{ site.skills_title | default: "Skills" }}</h3>
+    <p class="quote">현재 공부하거나 사용했던 기술입니다.</p>
+    {% for skill in site.data.skill %}
+        {% include {{ skill.layout | default: 'left' | append: ".html" }} item=skill %}
+    {% endfor %}
+</div>

@@ -1,0 +1,8 @@
+# Outside Template
+- layout: left
+  name: 글로벌 SW 공모대전
+  dates: 2018.03 ~ 2018.12
+  link: http://www.itdaily.kr/news/articleView.html?idxno=92193
+  description: | # this will include new lines to allow paragraphs
+    * 독거노인 대상으로 심박수와 모션 인식을 통해 위급상황 인식 및 스트리밍을 하는 임배디드 시스템
+    * 단체장상 수상

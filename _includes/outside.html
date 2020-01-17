@@ -1,0 +1,7 @@
+<div class="container education-container">
+    <h3>{{ site.outside_title | default: "OutSide Activity" }}</h3>
+    {% for outside in site.data.outside %}
+      {% include {{ outside.layout | default: 'left' | append: ".html" }} item=outside %}
+    {% endfor %}
+  </div>
+  

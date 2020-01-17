@@ -1,0 +1,12 @@
+# Education Template
+- layout: left
+  name: 우아한 테크 코스
+  dates: 2019.05.07 ~ 2019.12.27
+  link: https://github.com/backlo/woowahantechcourse
+  quote: >
+    자바지기 박재성님의 웹 백앤드 교육
+  description: | # this will include new lines to allow paragraphs
+    * OOP, TDD, 클린코 드를 기반해 Java 프로그래밍 구현
+    * Spring 내부 구조 및 Spring Boot, JPA 등 전반적인 웹 백앤드 교육 수강
+    * 페어 프로그래밍, 프로젝트를 통해 협업 경험
+    * 신입 개발자의 태도, 추구등 개발자로서 한단계 성장 할 수 있었던 계기

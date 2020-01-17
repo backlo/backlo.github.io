@@ -1,0 +1,22 @@
+# skill template
+- layout: left
+  name: 주로 사용한 기술
+  description: | # this will include new lines to allow paragraphs
+    * JAVA
+    * Spring Boot, Spring MVC
+    * Junit5, Mockito
+    * Gradle
+    * Intellij
+- layout: left
+  name: 자주 사용한 기술
+  description: | # this will include new lines to allow paragraphs
+    * JavaScript, HTML/CSS
+    * JPA
+    * Git Command
+    * Visual Studio Code
+- layout: left
+  name: 간단하게 사용한 기술
+  description: | # this will include new lines to allow paragraphs
+    * Spring Cloud AWS (EC2, S3)
+    * Linux Command
+    * Docker, Shell Script, Jenkins
