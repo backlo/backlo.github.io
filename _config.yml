@@ -42,13 +42,20 @@ github_username: backlo
 about_title: About Me #(Use this to override about section title)
 about_profile_image: images/profile.JPG
 about_content: | # this will include new lines to allow paragraphs
-  신입 Java 백앤드 개발자로 공유를 통해 성장 하고 있습니다.
-  현재 [우아한 테크코스](https://techcourse.woowahan.com)에서 백앤드 교육 과정을 수료했습니다.
+  프로그래밍을 시작했을 때, 읽기좋은 코드를 만들자는 목표를 가지고 프로그래밍을 했습니다.
 
-  **OOP** 와 **클린코드** 를 통해 읽기 좋은 코드를 구현하려고 노력하고 있습니다.
-  **테스트 코드**를 꼼꼼히 작성하는 것이 선택이 아닌 필수라고 생각하고 **TDD** 원칙을 지켜 코딩을 하고 있습니다.
+  이 목표를 이루기 위해 [우아한 테크코스](https://techcourse.woowahan.com)에서 백앤드 교육 과정을 수료했습니다.
+
+
+  **OOP**와 **클린코드** 를 통해 읽기 좋은 코드를 구현하려고 노력하고 있고, Spring 프레임워크로 다양한 토이 프로젝트를 만들었습니다.
+
+  또한 프로젝트의 견고함을 위해 **테스트 코드**를 꼼꼼히 작성하는 것이 선택이 아닌 필수라고 생각합니다.
+
+  그리고 **TDD**에 관심이 있어 TDD를 지키면서 프로그래밍을 하고 있습니다.
   
-  현재는 공부했던 개발 지식을 체계화 시키기 위해 블로그와 스터디를 하고 있습니다.
+
+  현재 공부했던 개발 지식을 체계화 시키기 위해 블로그를 하고 있습니다.
+
 
   개발을 나만을 위해 하는 것이 아닌 **팀/동료들이 같이 일을 하고 싶어하는 개발자** 가 되는 것이 꿈입니다.
 
