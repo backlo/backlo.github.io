@@ -1,0 +1,40 @@
+# Project Section
+- layout: top-middle
+  name: Stardium - 농구 팀 매칭 서비스
+  github: backlo/stardium
+  dates: 2019.11.26 ~ 2019.12.27
+  quote: >
+    시간과 장소에 제약 받지 않고 소모임을 맺어주는 플랫폼 
+  description: |
+    - 우아한 테크코스 최종 팀 프로젝트
+    - 팀 회의를 통해 현업과 같이하자는 목표를 세우고 진행
+    - 1차 버전과 2차 버전으로 나눠 진행
+      - 1차: 빠른 기능 제작과 실 서비스를 배포한다는 목적을 두고 팀 프로젝트 진행
+      - 2차: 1차에서 <mark>마음에 안들거나 부족한 부분을 개선</mark>하기 위해 개인 프로젝트로 추가 진행
+    - 데모 영상 - **[보러 가기](https://www.youtube.com/watch?v=wkLuv0CkU60&ab_channel=Sooreal)**
+    - 스펙 및 상세 정보 - **[보러 가기](https://github.com/backlo/stardium/blob/master/README.md)**
+- layout: top-middle
+  name: WooTube - Youtube Clone 프로젝트
+  github: backlo/miniprojects-2019
+  dates: 2019.08.13 ~ 2019.09.04
+  quote: >
+    Youtube(Web) 서비스와 똑같이 만든 비디오 공유 플랫폼
+  description: | 
+    - 우아한 테크코스 미니 팀 프로젝트
+    - <mark>진정한 협업</mark>의 경험
+      - 코드 리뷰를 통해 개발 시야 및 코드 품질 향상
+      - 칸반 보드의 사용으로 일정 및 관리가 용이
+      - 매주 회고를 통해 팀원 간에 불편함 없이 프로젝트 진행 (일의 능률 향상)
+    - 데모 영상 - **[보러 가기](https://www.youtube.com/watch?v=aFqw6a7gvyE&list=PLgXGHBqgT2TsWUA5puZimG3DDlJTd370Q&index=9&t=2s)**
+    - 스펙 및 상세 정보 - **[보러 가기](https://github.com/backlo/miniprojects-2019/blob/master/README.md)**
+- layout: top-middle
+  name: BandCCare - 독거노인을 위한 위급상황 대처 시스템 
+  github: bandccare
+  dates: 2018.04 ~ 2018.12
+  quote: >
+    심박수 측정 및 움직임을 분석하여 위급 상황을 빠르게 대처하는 시스템
+  description: |
+    - 제 30회 글로벌 SW 공모전 팀 프로젝트
+    - 첫번째 팀 프로젝트로 팀 프로젝트가 무엇인지 경험
+    - 데모 영상 - **[보러 가기](https://www.youtube.com/watch?v=lCb1fbLXMyA&ab_channel=%EC%A7%84%EC%86%8C%EB%A6%B0)**
+    - 스펙 및 상세 정보 - **[보러 가기](https://github.com/bandccare/BANDC_Android/blob/master/README.md)**

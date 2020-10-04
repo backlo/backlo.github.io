@@ -1,0 +1,6 @@
+<div class="container experience-container" style="padding-bottom: 20px;">
+  <h3 style="font-weight: 400">{{ site.experience_title | default: "Experience" }}</h3>
+  {% for experience in site.data.experience %}
+    {% include {{ experience.layout | default: 'left' | append: ".html" }} item=experience %}
+  {% endfor %}
+</div>

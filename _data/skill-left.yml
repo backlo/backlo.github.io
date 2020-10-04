@@ -1,0 +1,12 @@
+# Sklll Left Section
+- layout: left
+  name: Front-End
+  description: |
+    - Javascript
+    - HTML/CSS
+- layout: left
+  name: Back-End
+  description: |
+    - Spring
+    - Spring Boot
+    - AWS(EC2, RDS, S3 등)

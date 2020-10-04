@@ -1,0 +1,8 @@
+<div class="container intro-container">
+  <h3 style="font-weight: 400">{{ site.activity_title | default: "Activities" }}</h3>
+  <div class="row clearfix">
+    {%- if site.activity_image -%}
+        <img src="{{ site.activity_image | relative_url }}">
+    {%- endif -%}
+  </div>
+</div>

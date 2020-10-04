@@ -1,0 +1,13 @@
+# Skill Right Section
+- layout: left
+  name: Database
+  description: |
+    - PostgreSQL
+    - MySQL
+    - Redis
+- layout: left
+  name: Dev-Ops
+  description: |
+    - Gradle / Maven
+    - Docker
+    - Jenkins / Ngnix

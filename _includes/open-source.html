@@ -1,0 +1,7 @@
+<div class="container experience-container" style="padding-bottom: 20px;">
+    <h3 style="font-weight: 400">{{ site.open-source_title | default: "OpenSource" }}</h3>
+    {% for open-source in site.data.open-source %}
+      {% include {{ open-source.layout | default: 'left' | append: ".html" }} item=open-source %}
+    {% endfor %}
+</div>
+  
