@@ -1,6 +1,222 @@
 <div class="container projects-container" style="padding-bottom: 20px;">
   <h3 style="font-weight: 400">{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
-  {% endfor %}
+  <div class="row clearfix layout layout-top-middle">
+    <div class="row clearfix layout layout-top-middle">
+      <div class="col-xs-12 col-print-12 details">
+        <h4>Stardium - 농구 팀 매칭 서비스</h4>
+        <p>2019.11.26 ~ 2019.12.27</p>
+        <p class="no-print">
+          <a href="https://github.com/backlo/stardium" target="_blank">
+            <i class="fa fa-github" title="Stardium - 농구 팀 매칭 서비스 Github link"></i>
+          </a>
+        </p>
+      </div>
+      <div class="col-xs-12 col-print-12" style="padding-top: 50px;">
+
+
+        <h4 style="font-style: italic; font-weight: bold;">1. 스타디움 소개</h4>
+        <br />
+        <div style="width: 100%; height: 170px;">
+          <p>스타디움은 농구를 좋아하는 개인이 서로 원하는 시간과 장소에 모여 쉽게 농구를 할 수 있게 도와주는 서비스 입니다.</p>
+          <p>사용자가 <code class="highlighter-rouge">장소</code>와 <code class="highlighter-rouge">시간</code>을 정해 게임방을 만들면 다른
+            사용자가 해당 게임방에 참여할 수 있습니다.</p>
+          <p>그리고 해당 방 인원이 가득 차면 게임이 <code class="highlighter-rouge">자동으로 시작</code>하고 게임이 시작됐다는 알림이
+            가는 플로우를 가지고 있습니다.</p>
+          <br />
+        </div>
+
+
+        <h4 style="font-style: italic; font-weight: bold;">2. 스타디움 기술 스택</h4>
+        <br />
+        <div style="width: 100%; height: 240px;">
+          <div style="float: left; width: 50%;">
+            <ul>
+              <li>Language
+                <ul>
+                  <li><strong>Java</strong></li>
+                  <li>JavaScript</li>
+                  <li>HTML/CSS</li>
+                </ul>
+              </li>
+              <li>Framework / Library
+                <ul>
+                  <li><strong>Spring Boot</strong></li>
+                  <li>Semantic UI</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div style="float: right; width: 50%;">
+            <ul>
+              <li>Database
+                <ul>
+                  <li>PostgreSQL / H2</li>
+                  <li>Redis</li>
+                </ul>
+              </li>
+              <li>DevOps
+                <ul>
+                  <li>Gradle</li>
+                  <li>Jenkins</li>
+                  <li>Docker</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <br />
+        </div>
+
+
+        <h4 style="font-style: italic; font-weight: bold;">3. 스타디움 구조</h4>
+        <br />
+        <div style="width: 100%; height: 500px;">
+          <div style="float: left; width: 50%;">
+            <ul>
+              <li style="font-weight: bold; font-size: 20px;">1차 - 기능 우선과 CI 구축 초점</li>
+              <img src="./images/Architecture1.png" alt="아키텍처1" width="100%" height="50%">
+            </ul>
+          </div>
+          <div style="float: right; width: 50%;">
+            <ul>
+              <li style="font-weight: bold; font-size: 20px;">2차 - 기능 고도화 및 세분화 초점</li>
+              <br/>
+              <img src="./images/Architecture2.png" alt="아키텍처2" width="100%" height="50%">
+            </ul>
+          </div>
+        </div>
+        <br />
+
+
+        <h4 style="font-style: italic; font-weight: bold;">4. 스타디움 주요 내용</h4>
+        <br />
+        <div style="width: 100%; height: 350px;">
+          <ul>
+            <li style="font-weight: bold; font-size: 20px;">1차 - 팀 프로젝트</li>
+            <br />
+            <ol>
+              <li>기능을 중점으로 두고 프로젝트 제작</li>
+              <li>CI/CD 구축 경험</li>
+              <li>현업 프로세스에 맞게 프로젝트 진행</li>
+            </ol>
+            <br />
+            <li style="font-weight: bold; font-size: 20px;">2차 - 개인 프로젝트</li>
+            <br />
+            <ol>
+              <li>팀 프로젝트에서 부족했던 점이나 보완할 점을 고치기 위해 진행</li>
+              <li>어플리케이션 타겟 변경으로 인한 REST API 로 변경</li>
+              <li>모놀로틱 서버에서 멀티 모듈 서버로 변경</li>
+            </ol>
+          </ul>
+        </div>
+
+
+        <h4 style="font-style: italic; font-weight: bold;">5. 스타디움에서 나의 역할</h4>
+        <br />
+        <div style="width: 100%; height: 1150px;">
+          <ul>
+            <li style="font-weight: bold; font-size: 20px;">1차 - 팀 프로젝트</li>
+            <br />
+            <ol>
+              <li>플레이어가 원하는 소모임 방에 들어가는 비지니스 로직, 프로필 관리 로직 구현
+                <ol>
+                  <li>Entity간 연관관계 매핑</li>
+                  <li>정적 파일 AWS S3에 저장 기능 설계</li>
+                </ol>
+              </li>
+              <li>카카오 API를 사용해서 로그인 되게 하는 로직 구현
+                <ol>
+                  <li>카카오 API 에게 로그인 요청하는 커넥터 구현</li>
+                  <li>인증받은 사용자 정보를 Session 인증 방식으로 설계</li>
+                </ol>
+              </li>
+              <li>Junit5를 이용해 서비스, 도메인 모델 테스트 진행
+                <ol>
+                  <li>서비스의 신뢰성을 얻고자 테스트 커버리지 85%로 유지</li>
+                  <li>인수 테스트는 따로 통합 테스트 모듈을 만들어 테스트 진행</li>
+                </ol>
+              </li>
+            </ol>
+            <br />
+
+            <li style="font-weight: bold; font-size: 20px;">2차 - 개인 프로젝트</li>
+            <br />
+
+            <ol>
+              <li>서비스 주 타겟이 스마트폰이라는 점을 착안하여 웹이 아닌 앱으로 변경 -&gt; 프론트와 백을 분리(비동기식 처리 모델로 변경)
+                <ol>
+                  <li><a href="https://github.com/backlo/stardium/blob/master/docs/api/Stardium%20API.md">REST API</a>로
+                    문서 작성
+                    <ul>
+                      <li>자원과 행위를 최대한 잘 나타내도록 설계</li>
+                      <li>Response Status Code를 의미있게 리턴</li>
+                    </ul>
+                  </li>
+                  <li>패키지로 구분되어있던 계층을 멀티 모듈로 나눠 구현
+                    <ul>
+                      <li>하나의 거대한 프로젝트에서 작은 단위로 나눠 의존성을 최소화 시키게 하기 위해 멀티 모듈로 진행</li>
+                      <li>각 서버의 빌드 환경을 다르게 하기 위해 멀티 모듈 사용</li>
+                      <li>프로젝트 서버 분리시 공통된 자원을 사용할 경우 동일함을 보장해야 함
+                        <ul>
+                          <li>이러한 이유로 모듈을 따로 누눠 동일성을 보장</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <br />
+
+              <li>쿼리 튜닝
+                <ol>
+                  <li>QueryDSL를 사용
+                    <ul>
+                      <li>사용한 이유
+                        <ul>
+                          <li>JPA는 엔티티를 반환받은 뒤 한번 더 DTO 객체로 변환해야하는 불편함을 느낌</li>
+                          <li>복잡한 쿼리를 날려야 할 경우 JPQL로 쿼리문을 직접 작성해야한다는 문제를 느낌 -&gt; ORM의 방향과 다르다고 생각함</li>
+                          <li>컴파일 단계에서 오류를 찾을 수 있다는 장점 -&gt; 명시적으로 자바를 사용해 코딩 할 수 있다는 점</li>
+                        </ul>
+                      </li>
+                      <li>JPQL로 되어있던 부분들을 QueryDSL로 변경</li>
+                    </ul>
+                  </li>
+                  <li>모든 연관관계 LAZY 로딩으로 설정 후 DB 성능 개선
+                    <ul>
+                      <li>불필요한 쿼리가 안날라 가게 동적 쿼리 구현</li>
+                      <li>N+1 문제 해결</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <br />
+
+              <li>Session 인증 방식 -&gt; Spring Security + JWT 인증 방식으로 변경
+                <ol>
+                  <li>사용자 정보를 암호화 하지않아 보안에 취약</li>
+                  <li>접근 권한을 설정하지 않아 Admin 접근 제어에 불리</li>
+                  <li>Session방식은 내부 톰켓에 정보를 저장하는 구조로 되어있기 때문에 서버에 부담을 준다고 판단 -&gt; 레디스를 사용하여 사용자 정보</li>
+                  <li>필터에서 바로 인증 / 인가를 해주기 때문에 자원 낭비 절약</li>
+                </ol>
+              </li>
+              <br />
+
+              <li>Docker를 사용하여 서버 스팩 로그를 기록
+                <ol>
+                  <li>서버를 주기적으로 업데이트를 할 경우 관리가 불편</li>
+                  <li>서버의 이력들을 docker-compose.yml로 코드화 하여 docker 컨테이너를 생성</li>
+                  <li>DockerFile로 서버 스팩을 정밀하게 명세화 할 예정</li>
+                </ol>
+              </li>
+            </ol>
+          </ul>
+        </div>
+
+        <h4 style="font-style: italic; font-weight: bold;">5. Stardium 데모 영상</h4>
+        <br />
+        <p><a target="_blank" href="https://www.youtube.com/watch?v=wkLuv0CkU60"><img
+              src="https://i.imgur.com/Of7l1e1.png" width="500" height="300"></a></p>
+
+      </div>
+    </div>
+  </div>
 </div>
