@@ -1,13 +1,14 @@
 # Skill Right Section
 - layout: left
-  name: Database
+  name: Data Processing
   description: |
     - PostgreSQL
-    - MySQL
-    - Redis
+    - Elasticsearch (ELK)
+    - Hadoop Ecosystem
+    - MongoDB
 - layout: left
   name: Dev-Ops
   description: |
-    - Gradle / Maven
+    - Airflow
     - Docker
-    - Jenkins / Ngnix
+    - Kafka

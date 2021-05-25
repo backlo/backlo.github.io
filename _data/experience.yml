@@ -1,7 +1,14 @@
 # Experience Section
 - layout: left
+  name: 네이버 쇼핑 인턴
+  qualification: Naver Corporation
+  dates: 2020.12 ~ 2021.02
+  description: | 
+    - 쇼핑 관련 데이터 파이프 라인 구현 및 BI Tool 제작
+    - Data Processing에 관해 다양한 도구 사용 및 스킬들을 경험
+- layout: left
   name: 글로벌 SW 공모대전
-  qualification: 주최 - 과학기술정보통신부
+  qualification: 과학기술정보통신부
   dates: 2018.03 ~ 2018.12
   description: | 
     - 창의적인 아이디어와 우수한 기술을 가진 SW작품 발굴 및 인재 확보 - **[보러가기](http://www.itdaily.kr/news/articleView.html?idxno=92193)**

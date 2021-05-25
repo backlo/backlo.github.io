@@ -1,12 +1,13 @@
 # Sklll Left Section
 - layout: left
-  name: Front-End
+  name: Language
   description: |
+    - Java
+    - Kotlin
     - Javascript
-    - HTML/CSS
 - layout: left
-  name: Back-End
+  name: Server
   description: |
     - Spring
-    - Spring Boot
-    - AWS(EC2, RDS, S3 등)
+    - JPA
+    - QueryDSL
