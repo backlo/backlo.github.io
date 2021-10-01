@@ -1,5 +1,5 @@
 <div class="container projects-container" style="padding-bottom: 20px;">
-  <h3 style="font-weight: 400">{{ site.projects_title | default: "Projects" }}</h3>
+  <h3 style="font-weight: 400">{{ site.projects_title | default: "개인 프로젝트" }}</h3>
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
   {% endfor %}
