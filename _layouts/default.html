@@ -16,8 +16,8 @@
 
       {%- include activity.html -%}
 
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
+      {%- if site.data.career.size > 0 -%}
+        {%- include career.html -%}
       {%- endif -%}
       
       {%- if site.data.projects.size > 0 -%}
@@ -30,6 +30,10 @@
 
       {%- if site.data.open-source.size > 0 -%}
         {%- include open-source.html -%}
+      {%- endif -%}
+
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
       {%- endif -%}
 
     </div>
