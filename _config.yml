@@ -65,6 +65,9 @@ open-soutce_title: OpenSource
 # Experience Section
 experience_title: Experience 
 
+#Career Section
+career_title: Career 
+
 # Footer
 footer_show_references: false
 

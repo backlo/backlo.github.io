@@ -1,0 +1,7 @@
+<div class="container experience-container" style="padding-bottom: 20px;">
+    <h3 style="font-weight: 400">{{ site.career_title | default: "Career" }}</h3>
+    {% for career in site.data.career %}
+      {% include {{ career.layout | default: 'left' | append: ".html" }} item=career %}
+    {% endfor %}
+  </div>
+  
